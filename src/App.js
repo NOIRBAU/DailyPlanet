@@ -1,11 +1,7 @@
-import Header from "./header"
+import Header from './header';
 
 function App() {
-  return <div>
-    <Header>
-      
-    </Header>
-  </div>;
+  return <Header />;
 }
 
 export default App;
