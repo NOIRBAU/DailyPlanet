@@ -22,7 +22,10 @@ const Header = () => {
 
   return (
     <React.Fragment>
-      <AppBar sx={{ background: '#111111', width: '1300', position: 'static' }}>
+      <AppBar
+        sx={{ background: '#111111', maxWidth: '1300px', position: 'static' }}
+        className="appBar"
+      >
         <Toolbar>
           <div className="navbar__toolbar">
             <img style={{ width: 70, height: 50, margin: 5 }} src={logo} />
