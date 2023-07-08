@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <React.Fragment>
-      <AppBar sx={{ background: '#111111' }} position="static" mb={0}>
+      <AppBar sx={{ background: '#111111', width: '1300', position: 'static' }}>
         <Toolbar>
           <div className="navbar__toolbar">
             <img style={{ width: 70, height: 50, margin: 5 }} src={logo} />
@@ -39,6 +39,9 @@ const Header = () => {
                   textColor="inherit"
                   value={value}
                   onChange={(e, value) => setValue(value)}
+                  TabIndicatorProps={{
+                    style: { background: 'Goldenrod', height: 3 },
+                  }}
                 >
                   {pages.map((page, index) => (
                     <Tab key={index} label={page} />

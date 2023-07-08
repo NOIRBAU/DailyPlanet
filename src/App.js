@@ -1,5 +1,6 @@
 import Header from './header';
 import Hero from './Hero';
+import Footer from './Footer';
 import { useState, useEffect } from 'react';
 import Menu from './components/Menu';
 import NewsGrid from './components/NewsGrid';
@@ -25,7 +26,9 @@ function App() {
         <h1 className="title">News</h1>
         <Menu active={active} setActive={setActive} setCategory={setCategory} />
         <NewsGrid items={items} />
+        <h1 className="title">ABOUT</h1>
       </div>
+      <Footer />
     </>
   );
 }

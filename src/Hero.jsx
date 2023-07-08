@@ -12,16 +12,17 @@ const Hero = () => {
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           height: 500,
-          width: '100%',
+          maxWidth: '1300px',
           display: 'flex',
           justifyContent: 'center',
+          margin: 'auto',
         }}
       >
         <Box
-          sx={{ width: { xs: '100%', sm: '50%', md: '40%' }, padding: { xs: 3, sm: 2, md: 20 } }}
+          sx={{ width: { xs: '100%', sm: '85%', md: '70%' }, padding: { xs: 3, sm: 2, md: 20 } }}
         >
           <Box sx={{ background: 'DarkGoldenrod', opacity: '0.8', borderRadius: 5 }} pb={1}>
-            <Typography align="center" variant="h1" sx={{ fontWeight: 900 }} mt={6}>
+            <Typography align="center" variant="h1" sx={{ fontWeight: 900 }} mt={5}>
               Daily Planet
             </Typography>
           </Box>
