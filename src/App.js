@@ -1,7 +1,12 @@
 import Header from './header';
+import Hero from './Hero';
 
 function App() {
-  return <Header />;
-}
+  return (
+  <>
+    <Header />
+    <Hero />
+  </>
+)};
 
 export default App;
