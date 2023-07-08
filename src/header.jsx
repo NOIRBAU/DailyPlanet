@@ -23,7 +23,7 @@ const Header = () => {
     <React.Fragment>
       <AppBar sx={{ background: '#111111' }} position="static" mb={0}>
         <Toolbar>
-          <Typography sx={{ fontSize: '2rem', paddingLeft: '10%' }} class="centered">
+          <Typography sx={{ fontSize: '2rem', paddingLeft: '10%' }} className="centered">
             <img style={{ width: 70, height: 50, margin: 5 }} src={logo} />
             DAILY PLANET
           </Typography>
