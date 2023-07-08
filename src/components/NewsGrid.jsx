@@ -13,7 +13,7 @@ function NewsGrid({ items }) {
 }
 
 NewsGrid.propTypes = {
-  // items: newsItemShape,
+  // items: newsItemShape, test
   items: PropTypes.arrayOf(newsItemShape),
 };
 
