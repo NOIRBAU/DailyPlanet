@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
-import {
-    List,
-    IconButton,
-    Drawer,
-    ListItemText,
-    ListItemIcon,
-    ListItemButton,
-} from "@mui/material";
+import {List, IconButton, Drawer, ListItemText, ListItemIcon, ListItemButton} from "@mui/material";
 import MenuIcon from '@material-ui/icons/Menu';
-const pages = ["HOME", "ABOUT", "CONTACT", "LOGIN"];
+const pages = ['HOME', 'ABOUT', 'CONTACT', 'LOGIN'];
 const DrawerComp = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
 

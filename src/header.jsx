@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from './assets/Daily_Planet.png'
 import {
   AppBar,
   Button,
@@ -10,6 +11,7 @@ import {
   useTheme,
 } from "@mui/material";
 import DrawerComp from "./Drawer";
+
 const Header = () => {
   const [value, setValue] = useState();
   const theme = useTheme();
@@ -21,11 +23,11 @@ const Header = () => {
     <React.Fragment>
       <AppBar sx={{ background: "#111111" }}>
         <Toolbar>
-              <Typography sx={{ fontSize: "2rem", paddingLeft: "10%" }}>
+              <Typography sx={{ fontSize: "2rem", paddingLeft: "10%" }} class="centered">
+                <img style={{ width: 70, height: 50, margin:5 }} src={logo} />
                 DAILY PLANET
               </Typography>
               <DrawerComp />
-          ) : (
             <>
               <Tabs
                 sx={{ marginLeft: "auto" }}
@@ -39,14 +41,10 @@ const Header = () => {
                 <Tab label="CONTACT" />
                 <Tab label="LOGIN" />
               </Tabs>
-              <Button sx={{ marginLeft: "auto" }} variant="contained">
+              <Button sx={{ marginLeft: "auto" }} style={{backgroundColor: "goldenrod"}} variant="contained">
                 Login
               </Button>
-              <Button sx={{ marginLeft: "10px" }} variant="contained">
-                SignUp
-              </Button>
             </>
-          )}
         </Toolbar>
       </AppBar>
     </React.Fragment>
