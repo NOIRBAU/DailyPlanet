@@ -11,6 +11,7 @@ import {
   useTheme,
 } from '@mui/material';
 import DrawerComp from './Drawer';
+const pages = ['HOME', 'ABOUT', 'CONTACT'];
 
 const Header = () => {
   const [value, setValue] = useState();
@@ -23,32 +24,38 @@ const Header = () => {
     <React.Fragment>
       <AppBar sx={{ background: '#111111' }} position="static" mb={0}>
         <Toolbar>
-          <Typography sx={{ fontSize: '2rem', paddingLeft: '10%' }} className="centered">
+          <div classNameName="navbar__toolbar">
             <img style={{ width: 70, height: 50, margin: 5 }} src={logo} />
-            DAILY PLANET
-          </Typography>
-          <DrawerComp />
-          <>
-            <Tabs
-              sx={{ marginLeft: 'auto' }}
-              indicatorColor="secondary"
-              textColor="inherit"
-              value={value}
-              onChange={(e, value) => setValue(value)}
-            >
-              <Tab label="HOME" />
-              <Tab label="ABOUT" />
-              <Tab label="CONTACT" />
-              <Tab label="LOGIN" />
-            </Tabs>
-            <Button
-              sx={{ marginLeft: 'auto' }}
-              style={{ backgroundColor: 'goldenrod' }}
-              variant="contained"
-            >
-              Login
-            </Button>
-          </>
+            {isMatch ? (
+              <>
+                <Typography sx={{ fontSize: '1.5rem', pl: '10%' }}>DAILY PLANET</Typography>
+                <DrawerComp />
+              </>
+            ) : (
+              <>
+                <Tabs
+                  sx={{ marginLeft: 'auto' }}
+                  indicatorColor="secondary"
+                  textColor="inherit"
+                  value={value}
+                  onChange={(e, value) => setValue(value)}
+                >
+                  {pages.map((page, index) => (
+                    <Tab key={index} label={page} />
+                  ))}
+                </Tabs>
+                <Button
+                  sx={{ marginLeft: 'auto' }}
+                  style={{ backgroundColor: 'goldenrod' }}
+                  variant="contained"
+                >
+                  LOGIN
+                </Button>
+              </>
+            )}
+          </div>
+
+          <></>
         </Toolbar>
       </AppBar>
     </React.Fragment>

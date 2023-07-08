@@ -11,7 +11,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 const pages = ['HOME', 'ABOUT', 'CONTACT', 'LOGIN'];
 const DrawerComp = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
-
   return (
     <React.Fragment>
       <Drawer anchor="left" open={openDrawer} onClose={() => setOpenDrawer(false)}>
