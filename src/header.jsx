@@ -24,7 +24,7 @@ const Header = () => {
     <React.Fragment>
       <AppBar sx={{ background: '#111111' }} position="static" mb={0}>
         <Toolbar>
-          <div classNameName="navbar__toolbar">
+          <div className="navbar__toolbar">
             <img style={{ width: 70, height: 50, margin: 5 }} src={logo} />
             {isMatch ? (
               <>
