@@ -20,5 +20,12 @@ code {
   margin: auto 0;
 }
 
+.navbar__toolbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
 
 

@@ -20,7 +20,7 @@ const Hero = () => {
         <Box
           sx={{ width: { xs: '100%', sm: '50%', md: '40%' }, padding: { xs: 3, sm: 2, md: 20 } }}
         >
-          <Box sx={{ background: 'DarkGoldenrod', opacity: '0.8' }}>
+          <Box sx={{ background: 'DarkGoldenrod', opacity: '0.8', borderRadius: 5 }} pb={1}>
             <Typography align="center" variant="h1" sx={{ fontWeight: 900 }} mt={6}>
               Daily Planet
             </Typography>

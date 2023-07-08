@@ -3,10 +3,11 @@ import Hero from './Hero';
 
 function App() {
   return (
-  <>
-    <Header />
-    <Hero />
-  </>
-)};
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
+}
 
 export default App;
