@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/DailyPlanet/static/css/main.79d31d58.css",
-    "main.js": "/DailyPlanet/static/js/main.6a7c9720.js",
-    "static/js/787.28cb0dcd.chunk.js": "/DailyPlanet/static/js/787.28cb0dcd.chunk.js",
-    "static/media/news.jpg": "/DailyPlanet/static/media/news.ceb06ec654da6d4d956e.jpg",
-    "static/media/newsWall1.jpg": "/DailyPlanet/static/media/newsWall1.3cf83302ae144ac94328.jpg",
-    "static/media/Daily_Planet.png": "/DailyPlanet/static/media/Daily_Planet.6496f179e9aba2fdbbef.png",
-    "index.html": "/DailyPlanet/index.html",
-    "main.79d31d58.css.map": "/DailyPlanet/static/css/main.79d31d58.css.map",
-    "main.6a7c9720.js.map": "/DailyPlanet/static/js/main.6a7c9720.js.map",
-    "787.28cb0dcd.chunk.js.map": "/DailyPlanet/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/dailyPlanet/static/css/main.e8a252ce.css",
+    "main.js": "/dailyPlanet/static/js/main.81108f99.js",
+    "static/js/787.28cb0dcd.chunk.js": "/dailyPlanet/static/js/787.28cb0dcd.chunk.js",
+    "static/media/news.jpg": "/dailyPlanet/static/media/news.ceb06ec654da6d4d956e.jpg",
+    "static/media/newsWall1.jpg": "/dailyPlanet/static/media/newsWall1.3cf83302ae144ac94328.jpg",
+    "static/media/Daily_Planet.png": "/dailyPlanet/static/media/Daily_Planet.6496f179e9aba2fdbbef.png",
+    "index.html": "/dailyPlanet/index.html",
+    "main.e8a252ce.css.map": "/dailyPlanet/static/css/main.e8a252ce.css.map",
+    "main.81108f99.js.map": "/dailyPlanet/static/js/main.81108f99.js.map",
+    "787.28cb0dcd.chunk.js.map": "/dailyPlanet/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79d31d58.css",
-    "static/js/main.6a7c9720.js"
+    "static/css/main.e8a252ce.css",
+    "static/js/main.81108f99.js"
   ]
 }
